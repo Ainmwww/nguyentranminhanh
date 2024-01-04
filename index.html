@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniture Shop</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="navigation_item logo">
+        <a href="">
+          <img src="./images/LOGO 1.png" width="120px" />
+        </a>
+      </div>
+      <div class="navigation_item navigation_list">
+        <ul>
+          <li><a class="navigation_button" href="#home">Home</a></li>
+          <li><a class="navigation_button" href="#shop">Shop</a></li>
+          <li><a class="navigation_button" href="#product">Product</a></li>
+          <li><a class="navigation_button" href="#blog">Blog</a></li>
+          <li><a class="navigation_button" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="navigation_item search">
+        <ul>
+          <li>
+            <img src="./images/search.png" width="15em" />
+          </li>
+          <li><img src="./images/persona.png" width="15em" /></li>
+          <li>
+            <img src="./images/shop.png" width="25em" />
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="landing_page" id="home">
+      <div class="slideshow-container">
+        <div class="slide fade">
+          <img src="./images/Banner1.png" style="width: 100%" />
+        </div>
+        <div class="slide fade">
+          <img src="./images/Banner2.png" style="width: 100%" />
+        </div>
+        <div class="slide fade">
+          <img src="./images/Banner3.png" style="width: 100%" />
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <div style="text-align: center" class="dot_container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+    <section class="shop" id="shop">
+      <div class="header">
+        <p>New Arrival</p>
+      </div>
+      <div class="shop_item_list">
+        <div class="shop_item">
+          <img src="./images/Chair1.png" height="200px" />
+          <div class="shop_item_description">
+            <p>Chair 1</p>
+            <p>$12.99</p>
+          </div>
+          <div class="shop_item_navigation">
+            <img src="./images/heart-red.png" width="20%" />
+            <img src="./images/search-red.png" width="20%" />
+            <img src="./images/cart-red.png" width="20%" />
+          </div>
+        </div>
+        <div class="shop_item">
+          <img src="./images/Chair3.png" height="200px" />
+          <div class="shop_item_description">
+            <p>Chair 2</p>
+            <p>$12.99</p>
+          </div>
+          <div class="shop_item_navigation">
+            <img src="./images/heart-red.png" width="20%" />
+            <img src="./images/search-red.png" width="20%" />
+            <img src="./images/cart-red.png" width="20%" />
+          </div>
+        </div>
+        <div class="shop_item">
+          <img src="./images/Table1.png" height="200px" />
+          <div class="shop_item_description">
+            <p>Chair 3</p>
+            <p>$12.99</p>
+          </div>
+          <div class="shop_item_navigation">
+            <img src="./images/heart-red.png" width="20%" />
+            <img src="./images/search-red.png" width="20%" />
+            <img src="./images/cart-red.png" width="20%" />
+          </div>
+        </div>
+        <div class="shop_item">
+          <img src="./images/Table2.png" height="200px" />
+          <div class="shop_item_description">
+            <p>Table 1</p>
+            <p>$12.99</p>
+          </div>
+          <div class="shop_item_navigation">
+            <img src="./images/heart-red.png" width="20%" />
+            <img src="./images/search-red.png" width="20%" />
+            <img src="./images/cart-red.png" width="20%" />
+          </div>
+        </div>
+        <div class="shop_item">
+          <img src="./images/Table3.png" height="200px" />
+          <div class="shop_item_description">
+            <p>Table 2</p>
+            <p>$12.99</p>
+          </div>
+          <div class="shop_item_navigation">
+            <img src="./images/heart-red.png" width="20%" />
+            <img src="./images/search-red.png" width="20%" />
+            <img src="./images/cart-red.png" width="20%" />
+          </div>
+        </div>
+        <div class="shop_item">
+          <img src="./images/Chair2.png" height="200px" />
+          <div class="shop_item_description">
+            <p>Table 3</p>
+            <p>$12.99</p>
+          </div>
+          <div class="shop_item_navigation">
+            <img src="./images/heart-red.png" width="20%" />
+            <img src="./images/search-red.png" width="20%" />
+            <img src="./images/cart-red.png" width="20%" />
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </section>
+    <section class="product" id="product">
+      <div class="header">
+        <p>PRODUCT FEATURE</p>
+      </div>
+      <div class="product_list">
+        <div class="product_list_item">
+          <b style="font-size: 20px">Bed room</b>
+          <p> Show more</p>
+        </div>
+        <div class="product_list_item">
+          <b style="font-size: 20px">Living room</b>
+          <p> Show more</p>
+        </div>
+        <div class="product_list_item">
+          <b style="font-size: 20px">Furniture</b>
+          <p> Show more</p>
+        </div>
+        <div class="product_list_item">
+          <b style="font-size: 20px">Decor</b>
+          <p>Show more</p>
+        </div>
+      </div>
+    </section>
+    <section class="blog" id="blog">
+      <div class="header">
+        <p>Blog</p>
+      </div>
+      <div class="blog_description">
+        <p>
+          Find a bright idea to suit your taste with our great selection of
+          suspension, wall, floor and table lights
+        </p>
+      </div>
+      <div class="blog_item_list">
+        <div class="blog_item">
+          <p
+            style="
+              font-size: 20px;
+              color: grey;
+              padding-bottom: 1em;
+              text-align: center;
+            "
+          >
+            How can you contact us?
+          </p>
+          <p style="color: #785B5B; text-align: justify">
+            As a customer, please feel free to give us a call through our hotline to reach the quickest support. In case the inquery is not that urgen, you can just leave a message on our filling-form
+          </p>
+        </div>
+        <div class="blog_item">
+          <img src="./images/blog-1.png" />
+        </div>
+        <div class="blog_item">
+          <img src="./images/blog-2.png" />
+        </div>
+        <div class="blog_item">
+          <p
+            style="
+              font-size: 20px;
+              color: grey;
+              padding-bottom: 1em;
+              text-align: center;
+            "
+          >
+            How can you contact us?
+          </p>
+          <p style="color: #785B5B; text-align: justify">
+            As a customer, please feel free to give us a call through our hotline to reach the quickest support. In case the inquery is not that urgen, you can just leave a message on our filling-form
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="header">
+        <div>Contact us</div>
+      </div>
+      <div class="contact_form">
+        <form action="/">
+          <input type="text" id="name" placeholder="Name" />
+          <input type="text" id="email" placeholder="Email" />
+          <input type="text" id="tel" placeholder="Tel" />
+          <textarea
+            type="text"
+            id="message"
+            rows="50"
+            cols="20"
+            wrap="on"
+            placeholder="Message"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <script type="text/javascript" src="./js/index.js"></script>
+  </body>
+</html>
